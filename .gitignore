@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+
+# Environment files and credentials
+.env
+.env.*
+*.env
+.npmrc
+.netrc
+credentials.json
+secrets.json
+secrets/
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.aws/
+
+# Build output and caches
+dist/
+build/
+out/
+coverage/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+*.tsbuildinfo
+
+# Temporary files and logs
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# macOS metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Local editor and assistant settings
+.idea/
+.vscode/
+.codex/
+.agents/
+
+# Downloaded reference containing a third-party access token
+/augen_pro.html
